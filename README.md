@@ -14,3 +14,4 @@ Dentro das pastas você vai encontrar:
 
 - https://gsnunes47.github.io/front-end-mentor/qr-code-component-main/index.html
 - https://gsnunes47.github.io/front-end-mentor/blog-preview-card-main/index.html
+- https://gsnunes47.github.io/front-end-mentor/social-links-profile-main/index.html
