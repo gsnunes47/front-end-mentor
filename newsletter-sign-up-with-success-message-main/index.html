@@ -6,14 +6,61 @@
   
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-  <link href="https://fonts.google.com/specimen/Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-[hsl(235,18%,26%)] items-center flex justify-center h-screen">
+<body class="flex items-center justify-center h-screen bg-[hsl(235,18%,26%)]" style="font-family: Roboto;">
 
-    <div class="w-10/12 h-96 bg-white rounded-xl">
+  <div class="h-96 bg-white rounded-xl flex items-center justify-center p-4">
 
+    <div class="w-80 flex items-center justify-center p-4">
+      <div class="h-full flex flex-col justify-center ">
+  
+        <h1 class="mb-6 font-semibold text-[hsl(234, 29%, 20%)] text-4xl">Stay updated!</h1>
+  
+        <p class="text-sm mb-4">Join 60,000+ product managers receiving monthly updates on:</p>
+        
+        <div class="mt-2 flex justify-start flex-col text-xs gap-2">
+  
+          <div class="flex items-center gap-2">
+            <img src="./assets/images/icon-success.svg" class="w-4"> 
+            <p>Product discovery and building what matters</p> 
+          </div>
+          
+          <div class="flex items-center gap-2">
+            <img src="./assets/images/icon-success.svg" class="w-4"> 
+            <p>Measuring to ensure updates are a sucess</p>
+          </div>
+          
+          <div class="flex items-center gap-2">
+            <img src="./assets/images/icon-success.svg" class="w-4"> 
+            <p>And much more!</p>
+          </div>
+          
+        </div>
+  
+        <div class="mt-4">
+          
+          <p class="font-bold text-xs mb-2">Email address</p>
+  
+          <input type="text" placeholder="email@company.com"  class="w-full mb-2 rounded-lg border-solid border-gray-300 border-2 px-4 py-2">
+          
+          <button class="w-full rounded-lg text-sm font-bold text-white bg-[#242742] group hover:bg-[#ff6155] px-4 py-2">Subscribe to monthly newsletter</button>
+  
+        </div>
+  
+      </div>
     </div>
 
+    <div class="m-0 w-1/2 h-full items-center flex justify-end">
+
+      <img src="./assets/images/illustration-sign-up-desktop.svg" class="h-full">
+    
+    </div>
+    
+  </div>
+
+
+  
 </body>
-</html>
+</html> 
