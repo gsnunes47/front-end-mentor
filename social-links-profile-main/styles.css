@@ -87,6 +87,9 @@ body {
         font-size: 14px;
         font-weight: 500;
 
+        transition-property: "color, background-color";
+        transition-duration: 100ms;
+        transition-timing-function: ease;
     }
 
     :hover.button {
